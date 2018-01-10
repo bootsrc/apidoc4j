@@ -1,0 +1,16 @@
+Api=1
+ApiParam=2
+ApiSuccess=3
+ApiExample=4
+TEXT=5
+TEXT1=6
+METHOD=7
+ID=8
+PATH_VALUE=9
+WS=10
+STRING=11
+'@api '=1
+'@apiParam '=2
+'@apiSuccess '=3
+'@apiExample '=4
+'\n'=6
