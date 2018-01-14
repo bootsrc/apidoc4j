@@ -1,0 +1,30 @@
+@api {GET} /sms/send 发送短信 send message1
+@apiName this Is ApiName
+@apiGroup sms
+------
+@api {GET} /sms/send 发送短信2 send message2
+              @apiName thisIsApiName2
+              @apiGroup sms2
+
+----------------------------------
+@api {GET} /sms/send Send message 发送短信
+@apiName thisIsApiName
+@apiGroup sms 短信
+@apiDescription 这是一个短信发送的接口
+@apiParam {String} timestamp 时间戳
+@apiParam {String} mobile 手机号
+
+
+
+//////////////////////
+ssssssssaa我是 刘少明1 aaa
+@api {GET} /sms/send Send message 发送短信 好的呀aaa bb
+@apiName thisIsApiName
+@apiParam {String} lastname    sssssssss姓氏
+@apiParamExample {json} Request-Example:
+mmmmm
+@apiSuccess {String} firstname Firstname of the User1
+@apiSuccess {String} firstname Firstname of the User2
+@apiSuccess {String} firstname Firstname of the User3
+
+
