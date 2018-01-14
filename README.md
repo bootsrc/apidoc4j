@@ -90,3 +90,21 @@ public class ApidocParserApp {
 
 ```
 <code></code> 可以改成自己的需要被提取apidoc的java代码的路径
+
+
+# 注意
+目前这个代码，只能解析几个字段
+```
+@api
+@apiName
+@apiParam
+```
+这三个字段被解析出来了。 其他的字段，也可以参考类似的原理，自己都修改Api.g4文件去解析所有的字段。
+
+ANTLR4 是antlr第四版。  
+```text
+antlr是指可以根据输入自动生成语法树并可视化的显示出来的开源语法分析器。ANTLR—Another Tool for Language
+Recognition，其前身是PCCTS，它为包括Java，C++，C#在内的语言提供了
+一个通过语法描述来自动构造自定义语言的识别器（recognizer），编译
+器（parser）和解释器（translator）的框架。
+```
